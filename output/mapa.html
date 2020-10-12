@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_93f7aef47a474b9f944e16831d8e929d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_93f7aef47a474b9f944e16831d8e929d" ></div>
+        
+</body>
+<script>    
+    
+            var map_93f7aef47a474b9f944e16831d8e929d = L.map(
+                "map_93f7aef47a474b9f944e16831d8e929d",
+                {
+                    center: [40.4167, -3.70325],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7a4c351c60224582bab5a39d0ad737dc = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_93f7aef47a474b9f944e16831d8e929d);
+        
+    
+            var marker_e3f2cda161db497395848ca239a02300 = L.marker(
+                [40.4502778, -3.743888888888889],
+                {}
+            ).addTo(map_93f7aef47a474b9f944e16831d8e929d);
+        
+    
+            var icon_2b23fcdb196041d6941a5b28da1d8505 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e3f2cda161db497395848ca239a02300.setIcon(icon_2b23fcdb196041d6941a5b28da1d8505);
+        
+    
+            marker_e3f2cda161db497395848ca239a02300.bindTooltip(
+                `<div>
+                     Depuradora Viveros de la Villa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1a040df125f842fca15ae67acf6edbbd = L.marker(
+                [40.365556, -3.6805555555555554],
+                {}
+            ).addTo(map_93f7aef47a474b9f944e16831d8e929d);
+        
+    
+            var icon_6badaf40a9a84ac1881434ae028a9324 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_1a040df125f842fca15ae67acf6edbbd.setIcon(icon_6badaf40a9a84ac1881434ae028a9324);
+        
+    
+            marker_1a040df125f842fca15ae67acf6edbbd.bindTooltip(
+                `<div>
+                     Depuradora la China
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_93c24aa482d8419090e95528833b1ef1 = L.marker(
+                [40.349167, -3.6591666666666667],
+                {}
+            ).addTo(map_93f7aef47a474b9f944e16831d8e929d);
+        
+    
+            var icon_102011b21287492e98f900ecb6a2a521 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_93c24aa482d8419090e95528833b1ef1.setIcon(icon_102011b21287492e98f900ecb6a2a521);
+        
+    
+            marker_93c24aa482d8419090e95528833b1ef1.bindTooltip(
+                `<div>
+                     Depuradora la Gavia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2c225a9f81ca43608bc84a185098d0c5 = L.marker(
+                [40.333611, -3.661111111111111],
+                {}
+            ).addTo(map_93f7aef47a474b9f944e16831d8e929d);
+        
+    
+            var icon_0cf7a742dee84caab96c4240a0720480 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2c225a9f81ca43608bc84a185098d0c5.setIcon(icon_0cf7a742dee84caab96c4240a0720480);
+        
+    
+            marker_2c225a9f81ca43608bc84a185098d0c5.bindTooltip(
+                `<div>
+                     Depuradora Butarque
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_303bcacb0703489886d1c64236862d4a = L.marker(
+                [40.331111, -3.5380555555555553],
+                {}
+            ).addTo(map_93f7aef47a474b9f944e16831d8e929d);
+        
+    
+            var icon_5de2a460694c47f680ff7536df8389e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_303bcacb0703489886d1c64236862d4a.setIcon(icon_5de2a460694c47f680ff7536df8389e3);
+        
+    
+            marker_303bcacb0703489886d1c64236862d4a.bindTooltip(
+                `<div>
+                     Depuradora Sur oriental
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2292ca3727c74f9c9cbc10e1b1092ace = L.marker(
+                [40.494722, -3.5466666666666664],
+                {}
+            ).addTo(map_93f7aef47a474b9f944e16831d8e929d);
+        
+    
+            var icon_84eb5bc62b5a42cf8c2f2921e3491606 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2292ca3727c74f9c9cbc10e1b1092ace.setIcon(icon_84eb5bc62b5a42cf8c2f2921e3491606);
+        
+    
+            marker_2292ca3727c74f9c9cbc10e1b1092ace.bindTooltip(
+                `<div>
+                     Depuradora Valdebebas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_52f2fd833cd54ee6a4a0c21a2800904e = L.marker(
+                [40.451111, -3.5380555555555553],
+                {}
+            ).addTo(map_93f7aef47a474b9f944e16831d8e929d);
+        
+    
+            var icon_6eefa7fd205b473996c80313200de835 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_52f2fd833cd54ee6a4a0c21a2800904e.setIcon(icon_6eefa7fd205b473996c80313200de835);
+        
+    
+            marker_52f2fd833cd54ee6a4a0c21a2800904e.bindTooltip(
+                `<div>
+                     Depuradora Rejas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
