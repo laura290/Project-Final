@@ -36,9 +36,13 @@ Objetivo:
 Librerias:
 
 *Numpy
+
 *Pandas
+
 *Matplotlib
+
 *Seaborn
+
 *Sklearn
                    
 
