@@ -1,6 +1,6 @@
- #                                      Waste Water
+ #                                             Waste Water
 
-![residual](input/residual.png)
+![residual](input/residual.jpg)
 
 
 Se extraen los  [DATOS](https://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=0f210c49cdcad510VgnVCM2000001f4a900aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default) correspondientes a los últimos años de las EDAR de Madrid.
