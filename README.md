@@ -23,10 +23,11 @@ Se lleva a acAbo una visualización de los datos para su posterior análisis;
     -variables mayor peso
 
 b) Clusterización usando cluster jerárquico:
+
     -todas las variables
     -variables mayor peso
 
-Análisis y visualización de los distintos cluster.
+Análisis y visualización de los distintos cluster
 
 Conclusiones
 
